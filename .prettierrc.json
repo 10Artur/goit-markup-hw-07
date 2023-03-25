@@ -1,0 +1,20 @@
+{
+    "filepath": "c:\\Users\\Admin\\Desktop\\GoIT\\GitHub\\goit-markup-hw-06\\index.html",
+    "parser": "html",
+    "arrowParens": "avoid",
+    "bracketSpacing": true,
+    "htmlWhitespaceSensitivity": "strict",
+    "insertPragma": false,
+    "jsxBracketSameLine": false,
+    "jsxSingleQuote": false,
+    "printWidth": 120,
+    "proseWrap": "preserve",
+    "quoteProps": "as-needed",
+    "requirePragma": false,
+    "semi": true,
+    "semicolon": false,
+    "singleQuote": false,
+    "tabWidth": 2,
+    "trailingComma": "all",
+    "useTabs": true
+}
