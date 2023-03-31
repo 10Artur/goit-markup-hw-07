@@ -1,0 +1,30 @@
+@media screen and (min-width: 480px) {
+    .container {
+        max-width: 428px;
+    }
+    /* ----------Header---------- */
+    .burger-link {
+        font-size: 36px;
+    }
+    .burger-address-link-tel {
+        font-size: 36px;
+    }
+    .burger-address-link-mail {
+        font-size: 20px;
+    }
+    /*
+-!-!-!-!-!Modal-!-!-!-!-! */
+    .modal-window {
+        width: 408px;
+        padding-top: 72px;
+    }
+}
+
+
+/* ----------Team section---------- */
+
+@media screen and (max-width: 767px) {
+    .team .container {
+        max-width: 264px;
+    }
+}
