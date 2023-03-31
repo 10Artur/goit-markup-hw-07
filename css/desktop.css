@@ -1,0 +1,113 @@
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1158px;
+    }
+    /* ----------Header---------- */
+    .address-list {
+        display: flex;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .address-item:not(:last-child) {
+        margin-right: 40px;
+    }
+    .address-link {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+    /* ----------Hero section---------- */
+    .hero {
+        padding-top: 188px;
+        padding-bottom: 188px;
+        height: 600px;
+        background-image: radial-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bgimg_1.jpg);
+    }
+    @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+        .hero {
+            background-image: radial-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bgimg_1-2x.jpg);
+        }
+    }
+    .hero-title {
+        margin-bottom: 48px;
+    }
+    /* ----------About section---------- */
+    .about {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    .about-subtitle {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+    .about-text {
+        font-weight: 400;
+    }
+    .about-item {
+        width: calc((100% - 3 * 24px) / 4);
+    }
+    .about-item:not(:last-child) {
+        margin-right: 24px;
+    }
+    .about-icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 112px;
+        background: var(--accent-color);
+        border-radius: 4px;
+        margin-bottom: 8px;
+    }
+    /* ----------Process section----------*/
+    .process {
+        display: block;
+        padding-top: 0;
+    }
+    .process-list {
+        display: flex;
+    }
+    .process-item {
+        flex-basis: calc((100% - 2 * 24px) / 3);
+    }
+    .process-item:not(:last-child) {
+        margin-right: 24px;
+    }
+    /* ----------Team section---------- */
+    .team {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    .team-item {
+        width: calc((100% - 3 * 24px) / 4);
+    }
+    .team-item:not(:last-child) {
+        margin-right: 24px;
+    }
+    /* ----------Companies section----------*/
+    .companies {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    .companies-item:not(:last-child) {
+        margin-right: 24px;
+    }
+    /* ----------Footer-----------
+*/
+    .footer {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .footer-social-container {
+        margin-left: 120px;
+    }
+    .footer-form-container {
+        margin-left: 80px;
+    }
+    /* -!-!-!-!-!Modal-!-!-!-!-! */
+    .modal-window {
+        height: 584px;
+    }
+}
