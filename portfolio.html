@@ -12,6 +12,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/desktop.css" />
 </head>
 
 <body>
@@ -33,6 +36,67 @@
 						<li class="address-item"><a href="tel:+110001111111" class="address-link link">+11 (000) 111-11-11</a></li>
 					</ul>
 				</address>
+            <!-- Burger menu -->
+            <button type="button" class="burger-btn-open js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+					<svg class="burger-icon-open" width="32" height="22">
+						<use href="./images/icons.svg#icon-open"></use>
+					</svg>
+				</button>
+        </div>
+
+        <div class="burger-menu-container js-menu-container" id="mobile-menu">
+            <button type="button" class="burger-btn-close js-close-menu">
+					<svg class="modal-icon burger-icon-close" width="8" height="8">
+						<use href="./images/symbol-defs.svg#icon-close"></use>
+					</svg>
+				</button>
+            <nav class="burger-nav">
+                <ul class="burger-list list">
+                    <li class="burger-item"><a href="./portfolio.html" class="burger-link link">Portfolio</a></li>
+                    <li class="burger-item"><a href="/" class="burger-link link">Contacts</a></li>
+                    <li class="burger-item"><a href="/" class="burger-link active link">Studio</a></li>
+                </ul>
+            </nav>
+            <address class="burger-address">
+					<ul class="burger-address-list list">
+						<li class="burger-address-item">
+							<a href="tel:+110001111111" class="burger-address-link-tel link">+11 (000) 111-11-11</a></li
+						>
+						<li class="burger-address-item"
+							><a href="mailto:info@devstudio.com" class="burger-address-link-mail link">info@devstudio.com</a></li
+						>
+					</ul>
+				</address>
+            <ul class="team-content-list list">
+                <li class="team-content-item">
+                    <a href="/" class="team-content-link link">
+                        <svg class="team-content-icon" width="16" height="16">
+								<use href="./images/symbol-defs.svg#icon-instagram"></use>
+							</svg>
+                    </a>
+                </li>
+                <li class="team-content-item">
+                    <a href="/" class="team-content-link link">
+                        <svg class="team-content-icon" width="16" height="16">
+								<use href="./images/symbol-defs.svg#icon-twitter"></use>
+							</svg>
+                    </a>
+                </li>
+                <li class="team-content-item">
+                    <a href="/" class="team-content-link link">
+                        <svg class="team-content-icon" width="16" height="16">
+								<use href="./images/symbol-defs.svg#icon-facebook"></use>
+							</svg>
+                    </a>
+                </li>
+                <li class="team-content-item">
+                    <a href="/" class="team-content-link link">
+                        <svg class="team-content-icon" width="16" height="16">
+								<use href="./images/symbol-defs.svg#icon-linkedin"></use>
+							</svg>
+                    </a>
+                </li>
+            </ul>
         </div>
     </header>
 
@@ -227,6 +291,7 @@
             <!-- /Footer form -->
         </div>
     </footer>
+    <script src="./js/mobile-menu.js"></script>
 </body>
 
 </html>
