@@ -135,7 +135,7 @@ body {
 }
 
 .header-logo {
-    color: inherit
+    color: inherit;
 }
 
 
@@ -152,6 +152,8 @@ body {
     cursor: pointer;
     border: none;
     outline: none;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .burger-icon-open {
@@ -254,8 +256,7 @@ body {
 }
 
 
-/*
-!-!-!-!-!-Index-!-!-!-!-! */
+/* !-!-!-!-!-Index-!-!-!-!-! */
 
 
 /* ----------Hero section---------- */
@@ -273,9 +274,7 @@ body {
     background-color: var(--main-color);
 }
 
-@media (min-device-pixel-ratio: 2),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
     .hero {
         background-image: radial-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bgimg_1-mobile-2x.jpg);
     }
@@ -422,7 +421,8 @@ body {
 }
 
 
-/* ----------Companies section---------- */
+/*
+----------Companies section---------- */
 
 .companies {
     padding-top: 96px;
@@ -606,7 +606,8 @@ body {
 }
 
 
-/* !-!-!-!-!-Portfolio-!-!-!-!-! */
+/*
+!-!-!-!-!-Portfolio-!-!-!-!-! */
 
 .category {
     padding-top: 96px;
